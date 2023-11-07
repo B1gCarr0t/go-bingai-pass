@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y wget curl && \
 ENV PORT=8080
 
 ENV BROWSER_BINARY=/opt/google/chrome/google-chrome
+
 ENV PASS_TIMEOUT=10
 
 EXPOSE 8080
